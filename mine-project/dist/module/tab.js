@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#box ul li").each(function(i){$(this).click(function(){$("#box ul li.ac").removeClass("ac"),$(this).addClass("ac"),$("#box ol li:eq("+i+")").show().siblings().hide()})})});

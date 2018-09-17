@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){$tag("button");var t=$tag("form")[0],n=$tag("input"),o=[!1,!1];t.onsubmit=function(t){o.every(function(t){return 1==t})||t.preventDefault()},n[0].onblur=function(){var t=getCookie("userName"),n=(getCookie("eml"),this.value);o[0]=t===n},n[1].onblur=function(){var t=getCookie("pwd"),n=this.value;o[1]=t===n}};

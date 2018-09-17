@@ -1,0 +1,329 @@
+@import url("header.css");
+@import url("footer.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+ul li{list-style: none;}
+
+
+
+/*main_content*/
+.main_content{
+    width: 980px;/*980px*/
+    min-height: 500px;/*标记*/
+    margin: 0 auto;
+}
+.main_content .col_sub{
+    width: 200px;
+    height: 100%;
+    min-height: 500px;/*标记*/
+    float: left;
+    position: relative;
+}
+
+
+
+/*load*/
+.main_content .load{
+    width: 100%;
+    height: 40px;
+    margin-top: -20px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.main_content .load a{
+    color: #444444;
+}
+
+
+
+
+/*all_wrapper*/
+.main_content .all_wrapper{
+    left: 0;
+    top: -30px;
+    width: 200px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background:#ffffff;
+    display: block;
+    position: relative;
+    z-index: 100;
+    margin: 0;
+
+}
+.main_content .all_wrapper .bd{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.main_content .all_wrapper .bd>a{
+    color:#444444;
+    display: block;
+    height: 21px;
+    width: 200px;
+    text-indent: -999em;
+    background: url(../images/all_cat.gif) no-repeat 0 -21px;
+    color: #444;
+    text-decoration: none;
+    outline: none;
+}
+
+.main_content .all_wrapper ul li a{
+    color:#444444;
+    cursor: pointer;
+    text-align: center;
+}
+.main_content .all_wrapper ul{
+    display: none;
+    font-size: 12px;
+    border:2px solid #464646;
+    border-radius: 0 0 6px 6px;
+}
+.main_content .all_wrapper ul li{
+    width: 80%;
+    display: list-item;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 10px;
+}
+.main_content .all_wrapper ul li:nth-child(1){
+    margin-top: 5px;
+}
+.main_content .all_wrapper ul li:last-child{
+    text-align: right;
+}
+
+
+
+
+/*hot_goods*/
+.main_content .col_sub .hot_goods{
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.main_content .col_sub .hot_goods .rxsp{
+    height: 31px;
+    width: 190px;
+    background: url(../images/ddcx.png) repeat;
+    line-height: 31px;
+    padding-left: 8px;
+    margin-bottom: 7px;
+}
+.main_content .col_sub .hot_goods .rxsp>h3{
+   font-size: 12px;
+   float: left;
+}
+
+.main_content .col_sub .hot_goods .rxsp a{
+    float: right;
+    font-size: 12px;
+    color: #444444;
+    padding-right: 10px;
+}
+.main_content .col_sub .hot_goods .rxsp a:hover{
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+.main_content .col_sub .jingpin{
+    margin-top: 10px;
+}
+.main_content .col_sub .history{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.main_content .col_sub .hot_goods .goods_list #show_hot ul{
+    width: 178px;
+    margin: 0 auto;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li{
+    width: 178px;
+    height: 83px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #e4e4e4;
+    padding-top: 10px;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li:last-child{
+    border:none;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li a{
+    font-size: 12px;
+    color: #444444;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li:hover a{
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li .photo{
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li .photo img{
+    width: 60px;
+    height: 60px;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li .info{
+    line-height: 17px;
+    float: right;
+    width: 110px;
+}
+.main_content .col_sub .hot_goods .goods_list #show_hot ul li .info em{
+    font-weight: bolder;
+    font-size: 12px;
+    color: #333333;
+    font-style: normal;
+}
+
+
+
+
+/*right*/
+.main_content .right{
+    width: 760px;
+    float: right;
+    min-height: 50px;
+}
+
+.main_content .right h4{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    display: block;
+}
+.main_content .right .brand{
+    height: 65px;
+    line-height: 65px;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: bolder;
+    overflow: hidden;
+    width: 200px;
+}
+.main_content .right .brand em{
+    float: left;
+    font-style: normal;
+}
+.main_content .right .brand a{
+    font-weight: normal;
+    height: 22px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+
+}
+
+/*tabs*/
+.main_content .right .tabs #box{
+    margin: 0 auto;
+}
+.main_content .right .tabs #box ul{
+    height: 30px;
+    width: 760px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.main_content .right .tabs #box ul .span{
+	height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    background: #f5f5f5;
+    float: left;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: block;
+	
+}
+.main_content .right .tabs #box ul li{
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    background: #f5f5f5;
+    float: left;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.main_content .right .tabs #box ul li.ac{
+    background: white;
+    border: 1px solid #dddddd;
+}
+.main_content .right .tabs #box ol{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.main_content .right .tabs #box ol li{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    /*display: none;*/
+}
+.main_content .right .tabs #box ol li.ac{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;     
+}
+
+
+.main_content .right .tabs #box ol li dl{
+    width:170px;
+    height: 221px;
+    text-align: left;
+    margin-top: 40px;
+}
+.main_content .right .tabs #box ol li dl dt{
+    width: 170px;
+    height: 159px;
+}
+.main_content .right .tabs #box ol li dl dt img{
+    width: 170px;
+    height: 159px;
+}
+.main_content .right .tabs #box ol li dl dd{
+    width: 170px;
+    height: 63px;
+    line-height: 17px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.main_content .right .tabs #box ol li dl dd span{
+    font-size: 12px;
+    color: #333333;
+    font-weight: bolder;
+}
+.main_content .right .tabs #box ol li dl dd a{
+    color: #444444;
+}
+.main_content .right .tabs #box ol li dl dd:hover a{
+    color: #fd6600;
+    text-decoration: underline;
+}
+

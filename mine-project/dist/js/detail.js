@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","template","header","footer","toast","tab","zoom"],function(t,e,i,o,r,n){i.init(),o.init()})});

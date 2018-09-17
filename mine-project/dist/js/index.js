@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","template","header","footer","lunbo"],function(e,i,n,o){console.log(n),n.init(),o.init()})});

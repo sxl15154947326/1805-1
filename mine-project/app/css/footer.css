@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+ul li{list-style: none;}
+#footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e4e4e4;
+    display: table;
+    width: 100%;
+    color: #333;
+    text-align: left;
+}
+#footer .container {
+    padding: 20px 0 40px;
+    width: 980px;
+    margin: 0px auto;
+    clear: both;
+}
+.footer_listing {
+    margin-bottom: 30px;
+}
+.footer_listing .articles {
+    float: left;
+    width: 680px;
+    margin-top: 20px;
+}
+.footer_listing .contact {
+    float: right;
+    width: 220px;
+    padding: 20px 20px 20px 40px;
+    color: #888;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.footer_listing .contact h4 {
+    margin: 10px 0;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer_listing .contact p {
+    line-height: 1.5em;
+    font-size: 12px;
+}
+.bottom_nav {
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 12px;
+}
+.copyright{
+	font-size: 12px;
+    margin-bottom: 10px;
+    color: #888;
+    text-align: center;
+}
+
+
+.footer_listing .articles dl {
+    float: left;
+    width: 120px;
+    margin-left: 20px;
+}
+.footer_listing .articles dl a{
+   color:#888888;
+}
+.footer_listing .articles dl.first {
+    margin-left: 0;
+}
+.footer_listing .articles dt {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.footer_listing .articles dt:hover{
+	text-decoration: underline;
+}
+.footer_listing .articles dd {
+    padding: 5px 0;
+    line-height: 15px;
+    font-size: 12px;
+}
+.footer_listing .articles dd:hover{
+	text-decoration: underline;
+}
+
+

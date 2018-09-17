@@ -1,0 +1,192 @@
+@import url("header.css");
+@import url("footer.css");
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+ul li{list-style: none;}
+
+/*content*/
+.content{
+	width: 100%;
+}
+.content .container{
+	width:  980px;
+	min-height: 500px;
+	margin: 50px auto;
+}
+/*.content .container form{
+	width: 100%;
+	min-height: 450px;
+}*/
+.content .container form fieldset{
+	width: 100%;
+	min-height: 200px;
+	border: 1px solid #e4e4e4;
+	border-radius: 3px;
+}
+.content .container form fieldset legend{
+	width: 455px;
+	height: 35px;
+	margin-left: 20px;
+	background: url(../images/flow_bar.gif) no-repeat left top;
+}
+.content .container form fieldset legend span{
+	width: 145px;
+	height: 35px;
+	/*border: 1px solid #dbdbdb;*/
+	/*background: #e8e8e8;*/
+	display: block;
+	float: left;
+	border-radius: 3px;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	font-style: oblique;
+}
+.content .container form fieldset legend span:nth-child(1){
+	/*background: #b1b1b1;*/
+	margin-left: 0;
+}
+/*table*/
+.content .container form fieldset table{
+	width: 950px;
+	border: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.content .container form fieldset table tr{
+	border: none;
+	height: 65px;
+}
+.content .container form fieldset table tr:nth-child(1){
+	width: 100%;
+	height: 35px;
+	background: #f6f6f6;
+	font-size: 12px;
+	color: #444444;
+}
+.content .container form fieldset table tr th{
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+	width: 76px;
+}
+.content .container form fieldset table td{
+	border: none;
+}
+.content .container form fieldset table td dl dt{
+	width: 60px;
+	height: 50px;
+	margin: 10px 5px;
+	background: red;
+	float: left;
+}
+.content .container form fieldset table td dl dt img{
+	width: 60px;
+	height: 50px;
+}
+.content .container form fieldset table td dl dd{
+	float: left;
+	margin-top: 13px;
+	font-size: 14px;
+}
+.content .container form fieldset table tr th:nth-child(1){
+	width: 635px;
+}
+.content .container form fieldset table td input{
+	width: 36px;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+}
+.content .container form fieldset table td .del{
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+
+
+
+/*heji*/
+.content .container form fieldset .heji{
+	width: 950px;
+	height: 40px;
+	background: #fcfcfc;
+	border-top: 1px solid #eeeeee;
+	margin: 0 auto;
+}
+.content .container form fieldset .heji p{
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #333333;
+	height: 40px;
+	line-height: 40px;
+
+}
+.content .container form fieldset .heji p span{
+	font-weight: bolder;
+	color: #333333;
+	margin-top: 5px;
+}
+.content .container form fieldset .heji p:nth-child(2){
+	float: right;
+	margin-right: 10px;
+}
+.content .container form fieldset .heji p:nth-child(2) a{
+	font-size: 12px;
+	color: #555555;
+}
+.content .container form fieldset .heji p span:nth-child(2){
+	width: 98px;
+	height: 24px;
+	border: 1px solid #;
+	background: url(../images/cart_bg.png) repeat;
+	display: block;
+	float: right;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 3px;
+	border: 1px solid #dcdcdc;
+	margin-left: 10px;
+}
+.content .container form fieldset .jiesuan{
+	width: 100%;
+	height: 40px;
+	margin: 30px auto;
+	margin-bottom: 85px;
+}
+.content .container form fieldset .jiesuan p{
+	width: 280px;
+	margin: 0 auto;
+}
+.content .container form fieldset .jiesuan p a{
+	color: #444444;
+	font-size: 15px;
+	line-height: 40px;
+}
+.content .container form fieldset .jiesuan p span{
+	width: 136px;
+	height: 36px;
+	border-radius: 3px;
+	background: url(../images/cart2_bg.png) repeat;
+	display: block;
+	float: right;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 2px;
+}
+.content .container form fieldset .jiesuan p span a{
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 34px;
+}
+.content .container form fieldset .jiesuan p span a img{
+	width: 18px;
+	height: 17px;
+	margin-right: 10px;
+}
